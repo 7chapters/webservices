@@ -1,4 +1,4 @@
-package info._7chapters.webservice.ch01;
+package info._7chapters.webservice.ch01.ws;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;

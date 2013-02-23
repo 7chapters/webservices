@@ -1,6 +1,4 @@
-package info._7chapters.webservice.ch01;
-
-import info._7chapters.webservice.ch01.TimeServer;
+package info._7chapters.webservice.ch01.ws;
 
 import java.util.Date;
 
@@ -11,7 +9,7 @@ import javax.jws.WebService;
 * Note that the method implementations are not annotated
 * as @WebMethods.
 */
-@WebService(endpointInterface = "info._7chapters.webservice.ch01.TimeServer")
+@WebService(endpointInterface = "info._7chapters.webservice.ch01.ws.TimeServer")
 public class TimeServerImpl implements TimeServer {
 
 	@Override

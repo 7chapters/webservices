@@ -1,6 +1,6 @@
 package info._7chapters.webservice.ch01.publisher;
 
-import info._7chapters.webservice.ch01.TimeServerImpl;
+import info._7chapters.webservice.ch01.ws.TimeServerImpl;
 
 import javax.xml.ws.Endpoint;
 
