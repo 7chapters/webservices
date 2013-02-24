@@ -14,13 +14,11 @@ public class TimeServerImpl implements TimeServer {
 
 	@Override
 	public String getTimeAsString() {
-		// TODO Auto-generated method stub
 		return new Date().toString();
 	}
 
 	@Override
 	public long getTimeAsElapsed() {
-		// TODO Auto-generated method stub
 		return new Date().getTime();
 	}
 
