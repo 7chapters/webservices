@@ -9,7 +9,7 @@ import javax.jws.WebService;
 * Note that the method implementations are not annotated
 * as @WebMethods.
 */
-@WebService(endpointInterface = "info._7chapters.webservice.ch01.ws.TimeServer")
+@WebService(endpointInterface = "info._7chapters.webservice.ch01.ts.ws.TimeServer")
 public class TimeServerImpl implements TimeServer {
 	@Override
 	public String getTimeAsString() {
