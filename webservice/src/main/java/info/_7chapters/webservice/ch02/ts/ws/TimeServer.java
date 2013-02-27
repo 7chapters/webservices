@@ -1,4 +1,4 @@
-package info._7chapters.webservice.ch01.ts.ws;
+package info._7chapters.webservice.ch02.ts.ws;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -16,7 +16,7 @@ import javax.jws.soap.SOAPBinding.Style;
  * simplifies the contract and makes deployment easier.
  */
 @WebService
-@SOAPBinding(style = Style.RPC)
+//@SOAPBinding(style = Style.RPC)
 public interface TimeServer {
 	@WebMethod String getTimeAsString();
 	@WebMethod long getTimeAsElapsed();

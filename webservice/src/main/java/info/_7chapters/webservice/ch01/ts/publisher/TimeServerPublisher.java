@@ -34,6 +34,6 @@ public class TimeServerPublisher {
 	public static void main(String[ ] args) {
 		// 1st argument is the publication URL
 		// 2nd argument is an SIB instance
-		Endpoint.publish("http://127.0.0.1:9876/ts", new TimeServerImpl());
+		Endpoint.publish("http://127.0.0.1:9877/ts_rpc", new TimeServerImpl());
 	}
 }

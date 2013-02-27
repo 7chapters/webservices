@@ -12,7 +12,7 @@ class TimeClient {
 		// Qualified name of the service:
 		// 1st arg is the service URI
 		// 2nd is the service name published in the WSDL
-		QName qname = new QName("http://ws.ch01.webservice._7chapters.info/", "TimeServerImplService");
+		QName qname = new QName("http://ws.ts.ch01.webservice._7chapters.info/", "TimeServerImplService");
 		// Create, in effect, a factory for the service.
 		Service service = Service.create(url, qname);
 		// Extract the endpoint interface, the service "port".
